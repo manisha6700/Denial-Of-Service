@@ -160,7 +160,7 @@ To run the test, in your terminal pointing to the root directory of this level e
 npx hardhat test
 ```
 
-When the tests pass, you will notice that the `Good.sol` is now under DOS attack because after `Attack.sol` becomes the current winner, on other address can becomes the current winner. 
+When the tests pass, you will notice that the `Good.sol` is now under DOS attack because after `Attack.sol` becomes the current winner, no other address can become the current winner. 
 
 <Quiz questionId="cb1beb74-071c-4e66-af53-897663e88a0c" />
 
